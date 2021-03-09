@@ -53,8 +53,8 @@ COMMENT = 'warehouse for populating tables'
 --***********************************
 CREATE OR REPLACE STAGE S3_LOAD_STAGE
 URL = 's3://convins/load' 
-CREDENTIALS = ( AWS_KEY_ID = 'AKIAIDWOGKIYOLJOWPFQ'
-                AWS_SECRET_KEY = 'YOVuKdvDCxP20T/Mf+ZFeCNYqiom9XmonxevH2Sd')
+CREDENTIALS = ( AWS_KEY_ID = '*******'
+                AWS_SECRET_KEY = '************')
 ;
 
 --***********************************
